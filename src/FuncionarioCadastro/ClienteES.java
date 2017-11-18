@@ -9,7 +9,7 @@ package FuncionarioCadastro;
  *
  * @author andre
  */
-public class ClienteEX extends Cliente {
+public class ClienteES extends Cliente {
   private double DiscontoFixo; 
 
     public double getDiscontoFixo() {
@@ -19,7 +19,7 @@ public class ClienteEX extends Cliente {
     public void setDiscontoFixo(double DiscontoFixo) {
         this.DiscontoFixo = DiscontoFixo;
     }
-    public ClienteEX(String ende, int tel) {
+    public ClienteES(String ende, int tel) {
         super(ende, tel);
     }
 }
