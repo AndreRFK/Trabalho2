@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.estacio.programacaoI.trabalho2.EmpresaFuncionario;
+package EmpresaFuncionario;
 
 /**
  *
@@ -14,6 +14,15 @@ public class Funcionario extends Empresa {
     private String nome;
     private String cargo;
     private String superior;
+
+    public Funcionario() {
+    }
+
+    public Funcionario(String name, String carg, String sup) {
+        nome = name;
+        cargo = carg;
+        superior = sup;
+    }
 
     public String getNome() {
         return nome;
