@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.estacio.programacaoI.trabalho2;
+package br.estacio.programacaoI.Ex1.Ex2.Ex3;
 
 public class Country {
 
